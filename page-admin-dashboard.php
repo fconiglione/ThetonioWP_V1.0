@@ -189,7 +189,7 @@ require('inc/auth.php');
                     </div>
                     <div class="extras">
                         <div class="github-extra extra-item">
-                            <a target="_blank" href="https://github.com/fconiglione/">
+                            <a target="_blank" href="https://github.com/fconiglione/ThetonioWP">
                                 <div>
                                 <i class="fa-brands fa-github"></i>
                                 <p>Access GitHub Repository</p>
