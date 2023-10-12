@@ -3,18 +3,22 @@
 Template Name: ThetonioWP
 */
 ?>
-<section class="thetoniowp">
+<section class="project-page">
     <div>
         <a href="https://thetonio.com/#portfolio" class="rtn-btn"><i class="fa-solid fa-arrow-left"></i> Return</a>
     </div>
     <hr>
+    <div class="project-disclaimer">
+        <p><i class="fa-solid fa-circle-exclamation"></i> Important Message</p>
+        <p>Out of consideration for privacy and security concerns related to the administrative code, the GitHub repository for this project is currently set to private access. If you'd like to gain access as a collaborator to review the code, kindly <a href="https://thetonio.com/#contact">get in touch with me. </a></p>
+    </div>
     <div class="project-title">
         <div>
             <p>[ ThetonioWP ]</p>
             <h2>A Digital Showcase Of My Projects And Skills</h2>
         </div>
         <div>
-            <a target="_blank" href="https://github.com/fconiglione/ThetonioWP"><i class="fa-brands fa-github"></i></a>
+            <a target="_blank" href="https://github.com/fconiglione/Thetonio"><i class="fa-brands fa-github"></i></a>
             <a target="_blank" href="https://thetonio.com/"><i class="fa-solid fa-globe"></i></a>
         </div>
     </div>
@@ -58,14 +62,18 @@ Template Name: ThetonioWP
             <p class="heading">Workflow & Timeline</p>
             <p class="subheading">Discovery</p>
             <p>During the initial phase, I defined the project's objectives and established a clear vision for Thetonio. This included identifying the need for a personal portfolio website to showcase my skills, interests, and accomplishments as a developer.</p>
+            <p>-</p>
             <p class="subheading">Design</p>
             <p>A substantial portion of the project timeline was dedicated to the design phase. This involved crafting the user interface and user experience (UI/UX) design for an engaging online presence. Professional wireframes, mockups, and prototypes were developed to visualize the website's layout, ensuring that it would be both visually stunning and user-friendly.</p>
+            <p>-</p>
             <p class="subheading">Development</p>
             <p>With the design in place, I shifted the focus to development. This phase involved writing code in a variety of languages, including HTML, CSS, JavaScript, PHP, and MySQL. I also incorporated responsive design principles to ensure the website's compatibility with various devices and screen sizes.</p>
             <p>Moreover, as part of the commitment to exploring the full potential of WordPress, I integrated a selection of themes, plugins, and customization options to enhance functionality and aesthetics.</p>
             <p>Throughout development, I regularly reviewed the codebase to catch and rectify any minor syntax errors in JavaScript and other languages, which contributed to a smooth and error-free experience for users.</p>
+            <p>-</p>
             <p class="subheading">Testing & Quality Assurance</p>
             <p>Before launching Thetonio, the website experienced rigorous testing. This testing phase covered functionality, performance, security, and the identification and resolution of any lingering bugs or issues. The dedication to thorough testing ensured a high-quality end product.</p>
+            <p>-</p>
             <p class="subheading">Delivery</p>
             <p>After thorough testing and refinements, the launch of Thetonio was finally ready. This phase involved setting up hosting, configuring domains, and deploying the website to ensure it was accessible to the public.</p>
         </div>

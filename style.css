@@ -65,7 +65,7 @@ h3 {
 .about, .skills, .projects, .blog, .contact, .blog-library, .post {
     padding: 50px 5% 50px 5%;
 }
-.thetoniowp {
+.project-page {
     padding: 50px 15% 50px 15%;
 }
 @media screen and (max-width: 992px) {
@@ -75,7 +75,7 @@ h3 {
     .about, .skills, .projects, .blog, .contact, .blog-library, .post {
         padding: 40px 5% 40px 5%;
     }
-    .thetoniowp {
+    .project-page {
         padding: 40px 15% 40px 15%;
     }
 }
@@ -86,7 +86,7 @@ h3 {
     .about, .skills, .projects, .blog, .contact, .blog-library, .post {
         padding: 30px 5% 30px 5%;
     }
-    .thetoniowp {
+    .project-page {
         padding: 30px 15% 30px 15%;
     }
 }
@@ -2806,9 +2806,7 @@ footer h1 a, footer h1 a:link, footer h1 a:visited {
 
 /* Project Pages */
 
-/* Project Pages Global */
-
-.thetoniowp hr {
+.project-page hr {
     border: 1px solid #ffffff;
     margin: 30px 0;
 }
@@ -2870,10 +2868,10 @@ footer h1 a, footer h1 a:link, footer h1 a:visited {
 .project-directory i:hover {
     color: #FEAC4C;
 }
-.thetoniowp p {
+.project-page p, .project-page .project-disclaimer a {
     color: #ffffff;
     text-align: center;
-    font-family: "Figtree", sans-serif;
+    font-family: "Poppins", sans-serif;
     font-weight: 500;
 }
 .heading {
@@ -2903,20 +2901,26 @@ footer h1 a, footer h1 a:link, footer h1 a:visited {
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
     border-radius: 15px;
 }
+.project-disclaimer a {
+    color: #ffffff;
+}
+.project-disclaimer a:hover {
+    color: #FEAC4C;
+}
 .summary-container {
-    background-color: #ff5172;
+    background-color: #ef476f;
     margin: 30px 0;
 }
 .obj-container {
-    background-color: #158b8a;
+    background-color: #fb8500;
     margin: 30px 0;
 }
 .timeline-container {
-    background-color: #6ab04c;
+    background-color: #52b69a;
     margin: 30px 0;
 }
 .conclusion-container {
-    background-color: #ccaa85;
+    background-color: #118ab2;
     margin: 30px 0;
 }
 .languages {
@@ -2953,9 +2957,7 @@ footer h1 a, footer h1 a:link, footer h1 a:visited {
         align-items: center;
         justify-content: center;
     }
-    .thetoniowp {
+    .project-page {
         padding: 30px 5% 30px 5%;
     }
 }
-
-/* ThetonioWP */
