@@ -65,12 +65,18 @@ h3 {
 .about, .skills, .projects, .blog, .contact, .blog-library, .post {
     padding: 50px 5% 50px 5%;
 }
+.thetoniowp {
+    padding: 50px 15% 50px 15%;
+}
 @media screen and (max-width: 992px) {
     .masthead {
         padding: 0 5% 40px 5%;
     }
     .about, .skills, .projects, .blog, .contact, .blog-library, .post {
         padding: 40px 5% 40px 5%;
+    }
+    .thetoniowp {
+        padding: 40px 15% 40px 15%;
     }
 }
 @media screen and (max-width: 822px) {
@@ -79,6 +85,9 @@ h3 {
     }
     .about, .skills, .projects, .blog, .contact, .blog-library, .post {
         padding: 30px 5% 30px 5%;
+    }
+    .thetoniowp {
+        padding: 30px 15% 30px 15%;
     }
 }
 
@@ -2794,3 +2803,159 @@ footer h1 a, footer h1 a:link, footer h1 a:visited {
 .footer-links h1 {
     text-align: right;
 }
+
+/* Project Pages */
+
+/* Project Pages Global */
+
+.thetoniowp hr {
+    border: 1px solid #ffffff;
+    margin: 30px 0;
+}
+.rtn-btn {
+    font-family: "Figtree", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    color: #ffffff;
+    text-decoration: none;
+    text-align: left;
+    padding: 15px 20px;
+}
+.rtn-btn i {
+    padding-right: 10px;
+    font-size: 20px;
+    color: #ffffff;
+}
+.project-title p {
+    color: #ffffff;
+    font-weight: 300;
+    font-family: "Figtree", sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 30px 0 15px 0;
+    text-transform: uppercase;
+}
+.project-title h2 {
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+    margin: 0;
+    text-transform: uppercase;
+}
+.project-title i {
+    color: #ffffff;
+    font-size: 30px;
+}
+.project-title i:hover {
+    color: #FEAC4C;
+}
+.project-title div:nth-child(2) {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    padding: 30px 0;
+}
+.project-directory div {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding: 0 0 50px 0;
+}
+.project-directory i {
+    color: #ffffff;
+    font-size: 20px;
+}
+.project-directory i:hover {
+    color: #FEAC4C;
+}
+.thetoniowp p {
+    color: #ffffff;
+    text-align: center;
+    font-family: "Figtree", sans-serif;
+    font-weight: 500;
+}
+.heading {
+    color: #ffffff;
+    text-align: center;
+    font-family: "Figtree", sans-serif;
+    font-weight: 300 !important;
+    text-transform: uppercase;
+}
+.subheading {
+    color: #ffffff;
+    text-align: center;
+    font-family: "Figtree", sans-serif;
+    font-weight: 600 !important;
+    font-style: italic;
+}
+.project-media {
+    padding: 30px 0;
+}
+.project-media video {
+    width: 100%;
+    height: auto;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
+}
+.project-container {
+    padding: 20px 40px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
+    border-radius: 15px;
+}
+.summary-container {
+    background-color: #ff5172;
+    margin: 30px 0;
+}
+.obj-container {
+    background-color: #158b8a;
+    margin: 30px 0;
+}
+.timeline-container {
+    background-color: #6ab04c;
+    margin: 30px 0;
+}
+.conclusion-container {
+    background-color: #ccaa85;
+    margin: 30px 0;
+}
+.languages {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 20px;
+}
+.languages div {
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
+    padding: 10px 5px;
+    border-radius: 50px;
+}
+.languages div p {
+    margin: 0;
+}
+.languages div:first-child {
+    background-color: #04aa6d;
+}
+.languages div:nth-child(2) {
+    background-color: #f9ab00;
+}
+.languages div:nth-child(3) {
+    background-color: #b74844;
+}
+.languages div:nth-child(4) {
+    background-color: #c0ca33;
+}
+.languages div:last-child {
+    background-color: #8e24aa;
+}
+@media screen and (max-width: 612px) {
+    .languages {
+        grid-template-columns: repeat(3, 1fr);
+        align-items: center;
+        justify-content: center;
+    }
+    .thetoniowp {
+        padding: 30px 5% 30px 5%;
+    }
+}
+
+/* ThetonioWP */
