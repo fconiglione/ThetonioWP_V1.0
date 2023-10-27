@@ -143,7 +143,7 @@ require('inc/auth.php');
                                         </tr>
                                         <?php foreach ($projects as $project) { ?>
                                             <tr>
-                                                <td><?php echo "<a href=https://thetonio.com/admin-view-contact?id=" . $project['id'] . ">" . $project['projectTitle'] . "</a>"?></td>
+                                                <td><?php echo "<a href=https://thetonio.com/admin-edit-project?id=" . $project['id'] . ">" . $project['projectTitle'] . "</a>"?></td>
                                             </tr>
                                         <?php } ?>
                                     </table>

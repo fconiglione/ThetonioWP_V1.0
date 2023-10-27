@@ -248,6 +248,7 @@
                     $projectTitle = $project['projectTitle'];
                     $projectDescription = $project['projectDescription'];
                     $projectLink = $project['projectLink'];
+                    $gitHubLink = $project['githubLink'];
 
                     if ($displayedProjects >= 4) {
                         break;
@@ -255,12 +256,17 @@
             ?>
                 <div class="projects-item">
                     <div class="project-img">
-                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/<?php echo $preview; ?>" alt="<?php echo $previewAlt; ?>">
+                        <a href="<?php echo $projectLink; ?>">
+                            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/<?php echo $preview; ?>" alt="<?php echo $previewAlt; ?>">
+                        </a>
                     </div>
                     <div>
                         <div><h3><?php echo $projectTitle; ?></h3></div>
                         <div><p><?php echo $projectDescription; ?></p></div>
-                        <div><a href="<?php echo $projectLink; ?>">Read More     <i class="fa-solid fa-arrow-right-long"></i></a></div>
+                        <div class="project-nav">
+                            <div><a target="_blank" href="<?php echo $projectLink; ?>">Visit Project &boxh;&boxh;&boxh;</a></div>
+                            <div><a target="_blank" href="<?php echo $gitHubLink ?>"><i class="fa-brands fa-github"></i> Access Repository</a></div>
+                        </div>
                     </div>
                 </div>
             <?php
@@ -270,6 +276,9 @@
 			}
 			$db = null;
 			?>
+                <div class="projects-layout-nav">
+                    <a href="http://github.com/fconiglione/">View All <i class="fa-solid fa-arrow-right-long"></i></a>
+                </div>
             </div>
         </section>
         <section class="blog" id="blog">

@@ -24,6 +24,7 @@ $preview = $project['preview'];
 $previewAlt = $project['previewAlt'];
 $projectTitle = $project['projectTitle'];
 $projectDescription = $project['projectDescription'];
+$gitHubLink = $project['githubLink'];
 $projectLink = $project['projectLink'];
 
 ?>
@@ -50,6 +51,10 @@ $projectLink = $project['projectLink'];
                             <fieldset>
                                 <label for="projectDescription">Project Description</label>
                                 <textarea id="projectDescription" name="projectDescription" placeholder="Enter project description" required><?php echo $projectDescription; ?></textarea>
+                            </fieldset>
+                            <fieldset>
+                                <label for="gitHubLink">GitHub Link</label>
+                                <input type="text" id="gitHubLink" name="gitHubLink" placeholder="Enter GitHub link" value="<?php echo $gitHubLink; ?>" required>
                             </fieldset>
                             <fieldset>
                                 <label for="projectLink">Project Link</label>

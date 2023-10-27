@@ -5,6 +5,7 @@ $preview = $_POST['preview'];;
 $previewAlt = $_POST['previewAlt'];
 $projectTitle = $_POST['projectTitle'];
 $projectDescription = $_POST['projectDescription'];
+$gitHubLink = $_POST['gitHubLink'];
 $projectLink = $_POST['projectLink'];
 $projectId = $_POST['id'];
 $ok = true;
@@ -29,6 +30,10 @@ if (empty($projectDescription)) {
     echo '<p>Project description is required.</p>';
     $ok = false;
 }
+if (empty($gitHubLink)) {
+    echo '<p>GitHub link is required.</p>';
+    $ok = false;
+}
 if (empty($projectLink)) {
     echo '<p>Project link is required.</p>';
     $ok = false;
@@ -36,13 +41,14 @@ if (empty($projectLink)) {
 
 if ($ok) {
     require('inc/db.php');
-    $sql = "UPDATE projects SET preview = :preview, previewAlt = :previewAlt, projectTitle = :projectTitle, projectDescription = :projectDescription, projectLink = :projectLink WHERE id = :id";
+    $sql = "UPDATE projects SET preview = :preview, previewAlt = :previewAlt, projectTitle = :projectTitle, projectDescription = :projectDescription, gitHubLink = :gitHubLink, projectLink = :projectLink WHERE id = :id";
 
     $cmd = $db->prepare($sql);
     $cmd->bindParam(':preview', $preview, PDO::PARAM_STR, 255);
     $cmd->bindParam(':previewAlt', $previewAlt, PDO::PARAM_STR, 255);
     $cmd->bindParam(':projectTitle', $projectTitle, PDO::PARAM_STR, 255);
     $cmd->bindParam(':projectDescription', $projectDescription, PDO::PARAM_STR);
+    $cmd->bindParam(':gitHubLink', $gitHubLink, PDO::PARAM_STR, 255);
     $cmd->bindParam(':projectLink', $projectLink, PDO::PARAM_STR, 255);
     $cmd->bindParam(':id', $projectId, PDO::PARAM_INT);
 

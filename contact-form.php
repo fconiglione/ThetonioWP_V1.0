@@ -1,5 +1,4 @@
 <?php
-require('inc/auth.php');
 
 $name = $_POST['name'];
 $email = $_POST['email'];
