@@ -1197,7 +1197,7 @@ main.hidden, footer.hidden {
     padding-top: 15px;
     align-items: center;
 }
-@media screen and (max-width: 420px) {
+@media screen and (max-width: 450px) {
     .project-nav {
         flex-direction: column;
         align-items: unset;
@@ -1588,6 +1588,24 @@ main.hidden, footer.hidden {
 @media screen and (max-width: 822px) {
     .pagination span {
         font-size: 16px;
+    }
+}
+.blog-library .blog-item h4 a {
+    color: #000000;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 26px;
+}
+@media screen and (max-width: 992px) {
+    .blog-library .blog-item h4 a  {
+        font-size: 22px;
+    }
+}
+@media screen and (max-width: 822px) {
+    .blog-library .blog-item h4 a  {
+        font-size: 20px;
     }
 }
 
