@@ -237,7 +237,7 @@
             <?php
             require('inc/db.php');
 
-            $sql = "SELECT * FROM projects;";
+            $sql = "SELECT * FROM projects ORDER BY id DESC";
 			$cmd = $db->prepare($sql);
 			$cmd->execute();
             $projects = $cmd->fetchAll();

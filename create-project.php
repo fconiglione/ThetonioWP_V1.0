@@ -6,6 +6,7 @@
     $projectTitle = $_POST['projectTitle'];
     $projectDescription = $_POST['projectDescription'];
     $projectLink = $_POST['projectLink'];
+    $gitHubLink = $_POST['gitHubLink'];
     $ok = true;
 
     if (empty($preview)) {
@@ -24,6 +25,10 @@
         echo '<p>Project description is required.</p>';
         $ok = false;
     }
+    if (empty($gitHubLink)) {
+        echo '<p>GitHub link is required.</p>';
+        $ok = false;
+    }
     if (empty($projectLink)) {
         echo '<p>Project link is required.</p>';
         $ok = false;
@@ -39,6 +44,7 @@
         $cmd->bindParam(':previewAlt', $previewAlt, PDO::PARAM_STR, 255);
         $cmd->bindParam(':projectTitle', $projectTitle, PDO::PARAM_STR, 255);
         $cmd->bindParam(':projectDescription', $projectDescription, PDO::PARAM_STR);
+        $cmd->bindParam(':gitHubLink', $gitHubLink, PDO::PARAM_STR, 255);
         $cmd->bindParam(':projectLink', $projectLink, PDO::PARAM_STR, 255);
 
         $cmd->execute();

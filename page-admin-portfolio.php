@@ -30,6 +30,10 @@ require('inc/auth.php');
                                 <textarea id="projectDescription" name="projectDescription" placeholder="Enter project description" required></textarea>
                             </fieldset>
                             <fieldset>
+                                <label for="gitHubLink">GitHub Link</label>
+                                <input type="text" id="gitHubLink" name="gitHubLink" placeholder="Enter GitHub link" required>
+                            </fieldset>
+                            <fieldset>
                                 <label for="projectLink">Project Link</label>
                                 <input type="text" id="projectLink" name="projectLink" placeholder="Enter project link" required>
                             </fieldset>
@@ -44,7 +48,7 @@ require('inc/auth.php');
                     <div class="project-list-table" id="active-projects">
                         <?php
                         require('inc/db.php');
-                        $sql = "SELECT * FROM projects";
+                        $sql = "SELECT * FROM projects ORDER BY id DESC";
                         $cmd = $db->prepare($sql);
                         $cmd->execute();
                         $projects = $cmd->fetchAll();

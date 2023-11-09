@@ -1153,6 +1153,7 @@ main.hidden, footer.hidden {
     object-fit: cover;
     border-radius: 20px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    object-position: top left;
 }
 @media screen and (max-width: 1200px) {
     .projects-item img {
