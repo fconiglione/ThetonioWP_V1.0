@@ -200,6 +200,9 @@
                 <div class="icon">
                     <i class="devicon-mysql-plain"></i>
                 </div>
+                <div>
+                    <i class="devicon-postgresql-plain"></i>
+                </div>
                 <div class="icon">
                     <i class="devicon-microsoftsqlserver-plain"></i>
                 </div>
