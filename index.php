@@ -168,6 +168,9 @@
                     <i class="devicon-react-original"></i>
                 </div>
                 <div class="icon">
+                    <i class="devicon-nodejs-plain"></i>
+                </div>
+                <div class="icon">
                     <i class="devicon-python-plain"></i>
                 </div>
                 <div class="icon">
