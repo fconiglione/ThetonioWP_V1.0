@@ -10,7 +10,7 @@
                 </div>
                 <div class="masthead-nav">
                     <div class="download-btn">
-                        <a href="<?php echo get_template_directory_uri(); ?>/assets/files/FConiglioneResume.docx" download>Download CV &boxh;&boxh;&boxh;</a>
+                        <a href="<?php echo get_template_directory_uri(); ?>/assets/files/FrancescoConiglioneCV.pdf" download>Download CV &boxh;&boxh;&boxh;</a>
                     </div>
                     <div class="portfolio-btn">
                         <div>
