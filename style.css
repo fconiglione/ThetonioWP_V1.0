@@ -1473,6 +1473,9 @@ main.hidden, footer.hidden {
     width: auto;
     border-radius: 0;
 }
+.contact form fieldset input:focus, .contact form fieldset textarea:focus {
+    outline: none;
+}
 .contact form fieldset textarea {
     height: 131.5px;
 }
