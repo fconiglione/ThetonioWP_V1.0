@@ -62,7 +62,7 @@ h3 {
 .masthead {
     padding: 2% 5% 50px 5%;
 }
-.about, .skills, .projects, .blog, .contact, .blog-library, .post {
+.about, .skills, .projects, .blog, .contact, .blog-library, .post, .projects-display {
     padding: 50px 5% 50px 5%;
 }
 .project-page {
@@ -72,7 +72,7 @@ h3 {
     .masthead {
         padding: 0 5% 40px 5%;
     }
-    .about, .skills, .projects, .blog, .contact, .blog-library, .post {
+    .about, .skills, .projects, .blog, .contact, .blog-library, .post, .projects-display {
         padding: 40px 5% 40px 5%;
     }
     .project-page {
@@ -83,7 +83,7 @@ h3 {
     .masthead {
         padding: 0 5% 30px 5%;
     }
-    .about, .skills, .projects, .blog, .contact, .blog-library, .post {
+    .about, .skills, .projects, .blog, .contact, .blog-library, .post, .projects-display {
         padding: 30px 5% 30px 5%;
     }
     .project-page {
@@ -1538,6 +1538,22 @@ main.hidden, footer.hidden {
     transition: transform 0.3s ease-in-out;
     transform: translateY(-5px);
     background-color: #082866;
+}
+
+/* Separate Projects Page */
+
+.projects-display {
+    display: flex;
+    align-items: center;
+    background-color: #4054EC;
+    flex-direction: column;
+}
+.projects-display-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding-bottom: 60px;
 }
 
 /* Blog */

@@ -286,7 +286,7 @@
 			$db = null;
 			?>
                 <div class="projects-layout-nav">
-                    <a href="http://github.com/fconiglione/">View All <i class="fa-solid fa-arrow-right-long"></i></a>
+                    <a href="https://thetonio.com/projects/">View All <i class="fa-solid fa-arrow-right-long"></i></a>
                 </div>
             </div>
         </section>
