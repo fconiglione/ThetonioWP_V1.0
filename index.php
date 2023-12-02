@@ -3,7 +3,7 @@
         <section class="masthead" id="masthead">
             <div class="masthead-text">
                 <div>
-                    <h1>Software Engineer.</h1>
+                    <h1>Full-Stack Developer.</h1>
                 </div>
                 <div>
                     <p>In pursuing a computer science degree, I've already started exploring the multifaceted landscape of software engineering, including captivating realms like <span class="bold" >big data</span>, <span class="bold" >AI</span> and <span class="bold" >network security.</span></p>
