@@ -180,6 +180,9 @@
                     <i class="devicon-java-plain"></i>
                 </div>
                 <div class="icon">
+                    <i class="devicon-kotlin-plain"></i>
+                </div>
+                <div class="icon">
                     <i class="devicon-php-plain"></i>
                 </div>
                 <div class="icon">
